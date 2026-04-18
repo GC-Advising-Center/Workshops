@@ -5,7 +5,7 @@ Archives for experience-sharing workshops held by [Shanghai Jiao Tong University
 **Reminder: to access jbox link, please turn on SJTU VPN.**
 
 ---
-### 2025/05/04 <br>夏季课程学习分享会 | *SU Course Learning Guidance Workshop* 
+### 2026/04/18 <br>夏季课程学习分享会 | *SU Course Learning Guidance Workshop* 
 + [预告推送](https://mp.weixin.qq.com/s/63eNpmB6quGq2Qaugc5NZw)
 + [分享会回放](https://sjtu.feishu.cn/minutes/obcn4jwt5sz8tr1371crpv99?from=from_copylink)
 + [资料存档](https://sjtu.feishu.cn/wiki/L2CowEwtwiBA5GkLg0Ic0CelnQz)
