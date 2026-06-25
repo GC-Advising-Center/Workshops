@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duty Schedule | GC Advising Center</title>
+  <meta
+    name="description"
+    content="Weekday evening duty schedule for the GC Advising Center."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body data-page="schedule">
+  <div class="page-shell">
+    <header class="topbar panel panel--nav">
+      <a class="brand" href="./index.html"><img class="brand__logo" src="./assets/GCAC.png" alt="GC Advising Center logo"><span class="brand__text" id="brandText"></span></a>
+      <div class="topbar__actions">
+        <nav class="site-nav" id="siteNav" aria-label="Primary"></nav>
+        <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language"></button>
+      </div>
+    </header>
+
+    <main class="main-layout">
+      <section class="subpage-hero panel">
+        <p class="eyebrow" id="pageKicker"></p>
+        <h1 id="pageTitle"></h1>
+        <p class="hero__description" id="pageDescription"></p>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <p class="section-kicker" id="scheduleTableKicker"></p>
+          <h2 id="scheduleTableTitle"></h2>
+        </div>
+        <p class="section-intro" id="scheduleIntro"></p>
+        <div class="table-shell">
+          <table class="schedule-table" id="dutyScheduleTable"></table>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="./content/site-content.js"></script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
