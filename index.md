@@ -5,7 +5,7 @@ Archives for experience-sharing workshops held by [Shanghai Jiao Tong University
 **Reminder: to access jbox link, please turn on SJTU VPN.**
 
 ---
-### 2026/07/18 <br>non-DDer研究神申请分享会 | *non-DD, Graduate Programs Application Workshop* 
+### 2026/07/18 <br>非DD硕博申请Workshop | *non-DD, Graduate Programs Application Workshop* 
 + [预告推送](https://mp.weixin.qq.com/s/RtTy2txgklMgqjAA0xACuA?scene=1&click_id=1247613200)
 + [分享会回放](https://sjtu.feishu.cn/minutes/obcnvy6p5nilci5333yy51ta?from=from_copylink)
 + [资料存档](https://sjtu.feishu.cn/wiki/Uc4twtyt4im2K0kihfXcJjYjn7K?from=from_copylink)
