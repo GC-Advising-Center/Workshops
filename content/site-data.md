@@ -77,6 +77,20 @@ Archives for experience-sharing workshops held by [Shanghai Jiao Tong University
 **Reminder: to access jbox link, please turn on SJTU VPN.**
 
 ---
+### 2026/07/26 <br>DD硕博申请Workshop | *DD, Graduate Programs Application Workshop*
++ [分享会回放](https://sjtu.feishu.cn/minutes/obcn2h3pby3zhax66ucrw885)
++ [资料存档](https://github.com/GC-Advising-Center/Workshops/tree/9474209/materials/2026-07-26-dd)
+
+### 2026/07/18 <br>非DD硕博申请Workshop | *non-DD, Graduate Programs Application Workshop*
++ [预告推送](https://mp.weixin.qq.com/s/RtTy2txgklMgqjAA0xACuA?scene=1&click%5Fid=1247613200)
++ [分享会回放](https://sjtu.feishu.cn/minutes/obcnvy6p5nilci5333yy51ta?from=from%5Fcopylink)
++ [资料存档](https://sjtu.feishu.cn/wiki/Uc4twtyt4im2K0kihfXcJjYjn7K?from=from%5Fcopylink)
+
+### 2026/04/18 <br>夏季课程学习分享会 | *SU Course Learning Guidance Workshop*
++ [预告推送](https://mp.weixin.qq.com/s/63eNpmB6quGq2Qaugc5NZw)
++ [分享会回放](https://sjtu.feishu.cn/minutes/obcn4jwt5sz8tr1371crpv99?from=from%5Fcopylink)
++ [资料存档](https://sjtu.feishu.cn/wiki/L2CowEwtwiBA5GkLg0Ic0CelnQz)
+
 ### 2025/10/26 <br>GDP申请分享会 | *GDP Application Workshop*
 + [预告推送](https://mp.weixin.qq.com/s/Hhws0spnD_WqQ5KCI_75ew)
 + [分享会回放](https://pan.sjtu.edu.cn/web/share/5938ba3a9c2a143f71b6071e96b22816)
