@@ -1,123 +1,107 @@
-# GitHub Pages Course Information Site
+# GC Advising Center — Website
 
-This repo uses a multi-page layout with a top navigation bar, and the frequently updated site data is driven by a Markdown source file.
+Source of the Advising Center website, published at **https://ac.gcers.org** with GitHub Pages
+(branch `master`, folder `/ (root)`).
 
-## Main Pages
+Day-to-day updates only need **`content/site-data.md`**.
 
-- `index.html`: home page with the latest 3 workshop items and links to the other sections
-- `materials.html`: full workshop archive
-- `advisors.html`: advisor directory
-- `schedule.html`: Monday-Friday evening duty table
+## Pages
 
-## Files You Will Usually Edit
+* `index.html` — home page: three entry cards (workshop materials, duty schedule, Piazza)
+* `materials.html` — full workshop archive, with a search box
+* `advisors.html` — advisor directory, grouped in collapsible sections
+* `schedule.html` — weekday evening duty table
 
-- `content/site-data.md`: the main editable data file for the advisor directory, duty schedule, and workshop archive
-- `content/site-content.js`: site text for navigation, hero content, and page-level labels
-- `assets/styles.css`: shared styling
-- `assets/app.js`: shared rendering and Markdown parsing logic
+The home page currently shows **no** workshop preview.
 
-## Main Editing Workflow
+## Repository layout
 
-For most routine updates, only edit `content/site-data.md`.
+* `content/site-data.md` — the file you edit day to day: duty schedule, advisor directory, workshop archive
+* `content/site-content.js` — UI text: navigation labels, page titles and descriptions, home cards, search labels, error messages
+* `assets/app.js` — reads `site-data.md` and renders every page
+* `assets/styles.css` — styling
+* `CNAME` — must stay in the repository root; deleting it breaks the custom domain
+* `.nojekyll` — must stay in the repository root; disables Jekyll processing
 
-It currently powers:
+## How the data is loaded
 
-- the advisor directory
-- the full workshop archive
-- the home page workshop preview
-- the duty schedule table
+`assets/app.js` fetches `content/site-data.md` when a page loads and splits it by three exact
+section headings:
 
-## How To Update Advisor Profiles
+    ## Schedule   ->  duty schedule table
+    ## Advisors   ->  advisor directory (one collapsible group per ### heading)
+    ## Workshops  ->  the full archive on the Materials page
 
-The site reads advisor data from the `## Advisors` section in `content/site-data.md`.
+Do not rename these headings or add extra spaces; a section whose heading does not match
+exactly is silently ignored.
 
-Each advisor group uses:
+Because the file is fetched at page load, an edit goes live only after GitHub Pages finishes
+rebuilding (about a minute) and after a hard refresh (`Ctrl+Shift+R`, or `Cmd+Shift+R` on macOS).
 
-- one `### 中文分组名 | *English Group Name*` heading
-- one Markdown table directly under that heading
+## Editing the duty schedule
 
-Use this format:
+Edit the table under `## Schedule`:
 
-```md
-### 大三 | *Juniors*
+    | 日期 | 时间 | 单周顾问 | 双周顾问 | 地点 |
+    | --- | --- | --- | --- | --- |
+    | 周一 | 7:00-9:00 PM | 顾问A / 顾问B | 顾问C / 顾问D | 龙宾楼 312 |
 
-| 姓名 | 中文角色 | English Role | 邮箱 | 中文咨询方向 | English Expertise | 中文简介 | English Bio |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 张三 | 大三 ECE 专业 | Junior, ECE | zhangsan@example.com | 学业规划<br>科研入门 | Academic planning<br>Getting started with research | 欢迎来聊天 | Feel free to reach out. |
-```
+* Keep the header row and the separator row as they are.
+* Keep 5 columns; each line becomes one row.
+* Day names: `周一` to `周四`. English names (`Monday` …) also work.
+* `龙宾楼 312` is automatically shown as `LB 312` in English mode.
 
-Notes:
+## Editing the advisor directory
 
-- Keep the 8-column table header as-is.
-- Use `<br>` inside the expertise cells when one advisor has multiple topics.
-- The Chinese and English fields are rendered directly on the bilingual site, so update both sides together when possible.
-- You can add, remove, or reorder groups and advisors in Markdown without changing code.
+Edit the tables under `## Advisors`. Each group is one `###` heading followed by one table:
 
-## How To Update The Duty Schedule
+    ### 大三 | *Juniors*
 
-Open `content/site-data.md` and edit the table under `## Schedule`.
+    | 姓名 | 中文角色 | English Role | 邮箱 | 中文咨询方向 | English Expertise | 中文简介 | English Bio |
+    | --- | --- | --- | --- | --- | --- | --- | --- |
+    | 张三 | 大三 ECE 专业 | Junior, ECE | zhangsan@example.com | 学业规划<br>科研入门 | Academic planning<br>Getting started with research | 欢迎来聊天 | Feel free to reach out. |
 
-Use this format:
+* Keep the 8 columns in this exact order. A row with fewer than 8 cells is ignored.
+* Use `<br>` to separate multiple items inside one cell; Chinese and English are paired by position.
+* Groups and rows can be added, removed, or reordered freely — no code change needed.
+* The first group is expanded by default.
 
-```md
-| 日期 | 时间 | 单周顾问 | 双周顾问 | 地点 |
-| --- | --- | --- | --- | --- |
-| 周一 | 7:00-9:00 PM | 顾问A / 顾问B | 顾问C / 顾问D | 龙宾楼 312 |
-```
+## Adding a workshop entry
 
-Notes:
+Add the entry at the **top** of the `## Workshops` section (the list renders in file order,
+newest first):
 
-- Keep the header row and separator row as-is.
-- Each line becomes one row in the schedule table.
-- You can write `周一` 到 `周四` directly.
+    ### 2026/07/26 <br>DD硕博申请Workshop | *DD, Graduate Programs Application Workshop*
+    + [分享会回放](https://example.com/recording)
+    + [资料存档](https://example.com/archive)
 
-## How To Add A New Workshop Entry
+* The heading must be `### YYYY/M/D`, then a literal `<br>`, then the title.
+  A real line break instead of `<br>` makes the whole entry disappear silently.
+* Separate the Chinese and English titles with `|` and wrap the English title in `*...*`.
+  If the `*...*` part is omitted, the same text is shown in both languages.
+* Resource lines start with `+ `. A line with a link renders as a clickable link;
+  a line without one renders as plain text.
+* Text after a link becomes a note, e.g. `+ [资料存档](...) 提取码：bkia` shows
+  `提取码：bkia`, or `Code: bkia` in English mode.
 
-The site reads workshop data from the `## Workshops` section in `content/site-data.md`.
+### Resource labels
 
-When you add a new item:
+These labels are translated automatically:
 
-1. Open `content/site-data.md`.
-2. Add the newest entry near the top, above the older workshop items.
-3. Follow the same structure as the existing archive.
+    预告推送 / 分享会回放 / 资料存档 / 共享文档 / 回顾推送 / 总结推送 / 推送链接
 
-Use this format:
+Any other label still renders, but shows the same Chinese text in both languages.
+Adding a translation for a new label requires editing `assets/app.js`.
 
-```md
-### 2026/04/12 <br>中文标题 | *English Title*
-+ [预告推送](https://example.com/announcement)
-+ [分享会回放](https://example.com/recording)
-+ [资料存档](https://example.com/archive)
-```
+## Making a quick edit without git
 
-You can also use other existing resource labels that already appear in the archive, such as:
+Open https://github.com/GC-Advising-Center/Workshops/edit/master/content/site-data.md,
+commit the change to `master`, wait a minute, then hard-refresh the site.
 
-- `共享文档`
-- `回顾推送`
-- `总结推送`
-- `推送链接`
+## Deployment
 
-Notes:
+1. Commit and push to `master`.
+2. GitHub Pages rebuilds automatically
+   (Settings → Pages → Source: `Deploy from a branch`, Branch: `master`, Folder: `/ (root)`).
+3. `CNAME` in the repository root keeps the site at https://ac.gcers.org.
 
-- Keep the date at the start of the `###` heading.
-- Keep the Chinese title before the separator and the English title after it.
-- The parser supports both `| *English Title*` and `- *English Title*` patterns.
-- If a resource is temporarily unavailable, you can leave it as plain text, but only linked items will appear as clickable links on the site.
-- Some older JBox links may require SJTU VPN. That reminder is already reflected in the Materials section copy.
-
-## How The Materials Section Works
-
-- The home page shows the first 3 workshop entries from `content/site-data.md`.
-- The Materials page shows the full parsed archive.
-- To keep the newest items on the home page, always insert new entries near the top of the `## Workshops` section.
-
-## GitHub Pages Deployment
-
-1. Push this repository to GitHub.
-2. Open the repository `Settings`.
-3. Go to `Pages`.
-4. Under `Build and deployment`, choose:
-   - `Source`: `Deploy from a branch`
-   - `Branch`: `main`
-   - `Folder`: `/ (root)`
-5. Save and wait for the site to publish.
