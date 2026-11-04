@@ -919,3 +919,80 @@ body::after {
 .hero__meta .card__body {
   line-height: 1.65;
 }
+
+/* Piazza enrollment guide */
+body[data-page="piazza"] .subpage-hero h1 {
+  max-width: none;
+  font-size: clamp(2.1rem, 4.2vw, 3.5rem);
+  line-height: 1.15;
+}
+.piazza-actions { margin-bottom: 1.5rem; }
+.piazza-quick-steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1rem;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  list-style: none;
+  counter-reset: quick-step;
+}
+.piazza-quick-steps li {
+  counter-increment: quick-step;
+  padding: 1rem;
+  border-radius: 16px;
+  background: var(--highlight-soft);
+  line-height: 1.65;
+}
+.piazza-quick-steps li::before {
+  content: counter(quick-step, decimal-leading-zero);
+  display: block;
+  margin-bottom: .45rem;
+  color: var(--highlight);
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.piazza-address { overflow-wrap: anywhere; }
+.piazza-manual-steps {
+  display: grid;
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.75rem 0 0;
+}
+.piazza-step { min-width: 0; }
+.piazza-step + .piazza-step {
+  border-top: 1px solid var(--line);
+  padding-top: 1.5rem;
+}
+.piazza-step__heading { display: flex; align-items: center; gap: .8rem; }
+.piazza-step__heading h3 { margin: 0; font-size: 1.2rem; line-height: 1.5; }
+.piazza-step__number {
+  flex: 0 0 2rem;
+  height: 2rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: var(--highlight);
+  color: white;
+  font-weight: 700;
+}
+.piazza-step__figure { margin: 1rem auto 0; max-width: 900px; }
+.piazza-step__image-link { display: block; }
+.piazza-step__figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+}
+.piazza-step__figure figcaption { color: var(--muted); font-size: .85rem; margin-top: .5rem; }
+.piazza-bookmark h2 { margin-top: 0; }
+@media (max-width: 980px) {
+  .piazza-quick-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .piazza-quick-steps { grid-template-columns: 1fr; }
+  .piazza-actions { flex-direction: column; }
+  .piazza-step__heading { align-items: flex-start; }
+}

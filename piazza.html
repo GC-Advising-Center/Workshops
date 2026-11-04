@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piazza | GC Advising Center</title>
+  <meta
+    name="description"
+    content="Join the Advising Center Piazza community: quick enrollment and illustrated step-by-step instructions."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="./assets/styles.css?v=20261105-piazza">
+</head>
+<body data-page="piazza">
+  <div class="page-shell">
+    <header class="topbar panel panel--nav">
+      <a class="brand" href="./index.html"><img class="brand__logo" src="./assets/GCAC.png" alt="GC Advising Center logo"><span class="brand__text" id="brandText"></span></a>
+      <div class="topbar__actions">
+        <nav class="site-nav" id="siteNav" aria-label="Primary"></nav>
+        <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language"></button>
+      </div>
+    </header>
+
+    <main class="main-layout">
+      <section class="subpage-hero panel">
+        <p class="eyebrow" id="pageKicker"></p>
+        <h1 id="pageTitle"></h1>
+        <p class="hero__description" id="pageDescription"></p>
+      </section>
+
+      <section class="panel piazza-quick" aria-labelledby="piazzaQuickTitle">
+        <div class="section-heading"><h2 id="piazzaQuickTitle"></h2></div>
+        <p class="section-intro" id="piazzaQuickIntro"></p>
+        <div class="hero__actions piazza-actions">
+          <a class="button" id="piazzaJoinLink" href="https://piazza.com/sjtu.org/other/umjiac" target="_blank" rel="noreferrer"></a>
+          <a class="button--ghost" id="piazzaClassLink" href="https://piazza.com/class/l1hzqox6gb3293" target="_blank" rel="noreferrer"></a>
+        </div>
+        <ol class="piazza-quick-steps" id="piazzaQuickSteps"></ol>
+      </section>
+
+      <section class="panel" aria-labelledby="piazzaManualTitle">
+        <div class="section-heading"><h2 id="piazzaManualTitle"></h2></div>
+        <p class="section-intro" id="piazzaManualIntro"></p>
+        <a class="text-link piazza-address" id="piazzaSignupLink" href="https://piazza.com/signup/class" target="_blank" rel="noreferrer">piazza.com/signup/class</a>
+        <ol class="piazza-manual-steps" id="piazzaManualSteps"></ol>
+      </section>
+
+      <section class="panel piazza-bookmark" aria-labelledby="piazzaBookmarkTitle">
+        <h2 id="piazzaBookmarkTitle"></h2>
+        <p class="section-intro" id="piazzaBookmarkIntro"></p>
+        <a class="text-link piazza-address" href="https://piazza.com/class/l1hzqox6gb3293" target="_blank" rel="noreferrer">piazza.com/class/l1hzqox6gb3293</a>
+      </section>
+    </main>
+  </div>
+
+  <script src="./content/site-content.js?v=20261105-piazza"></script>
+  <script src="./assets/app.js?v=20261105-piazza"></script>
+</body>
+</html>

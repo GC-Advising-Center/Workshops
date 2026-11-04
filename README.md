@@ -11,6 +11,7 @@ Day-to-day updates only need **`content/site-data.md`**.
 * `materials.html` — full workshop archive, with a search box
 * `advisors.html` — advisor directory, grouped in collapsible sections
 * `schedule.html` — weekday evening duty table
+* `piazza.html` — Piazza enrollment guide with quick links and illustrated instructions
 
 The home page currently shows **no** workshop preview.
 
@@ -20,6 +21,7 @@ The home page currently shows **no** workshop preview.
 * `content/site-content.js` — UI text: navigation labels, page titles and descriptions, home cards, search labels, error messages
 * `assets/app.js` — reads `site-data.md` and renders every page
 * `assets/styles.css` — styling
+* `assets/piazza/` — example screenshots for the Piazza enrollment guide
 * `CNAME` — must stay in the repository root; deleting it breaks the custom domain
 * `.nojekyll` — must stay in the repository root; disables Jekyll processing
 

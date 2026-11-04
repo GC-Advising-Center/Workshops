@@ -111,6 +111,7 @@ window.SITE_CONTENT = {
       { id: "materials", label: t({ zh: "资料", en: "Materials" }), href: "./materials.html" },
       { id: "advisors", label: t({ zh: "顾问", en: "Advisors" }), href: "./advisors.html" },
       { id: "schedule", label: t({ zh: "值班安排", en: "Duty Schedule" }), href: "./schedule.html" },
+      { id: "piazza", label: "Piazza", href: "./piazza.html" },
     ];
   },
   heroActions: [],
@@ -163,6 +164,14 @@ window.SITE_CONTENT = {
         sectionKicker: "",
         sectionTitle: "",
       },
+      piazza: {
+        kicker: "",
+        title: t({ zh: "AC Piazza 使用指南", en: "Join AC on Piazza" }),
+        description: t({
+          zh: "在 Piazza 公开或匿名提问，向 AC 成员咨询，也可以查看学长学姐留下的历史问答。",
+          en: "Ask questions publicly or anonymously, get answers from AC members, and explore advice shared by previous students."
+        }),
+      },
       schedule: {
         kicker: "",
         title: t({ zh: "工作日晚间值班", en: "Weekday Evening Coverage" }),
@@ -197,6 +206,59 @@ window.SITE_CONTENT = {
           en: "Unable to load advisor profiles. Please check the Advisors section in content/site-data.md.",
         }),
       },
+    };
+  },
+  get piazza() {
+    return {
+      quickTitle: t({ zh: "快捷加入", en: "Quick enrollment" }),
+      quickIntro: t({ zh: "使用 Google Chrome 打开快捷注册链接，无需 Access Code。", en: "Open the direct enrollment link in Google Chrome. No access code is required." }),
+      joinLabel: t({ zh: "首次加入 AC Piazza", en: "Join AC Piazza" }),
+      classLabel: t({ zh: "已加入？进入讨论区", en: "Already enrolled? Open Piazza" }),
+      quickSteps: [
+        t({ zh: "打开上方快捷注册链接", en: "Open the enrollment link above" }),
+        t({ zh: "点击 Join Classes", en: "Click Join Classes" }),
+        t({ zh: "选择 Join as Student，填写交大邮箱", en: "Select Join as Student and enter your SJTU email" }),
+        t({ zh: "查收验证邮件，完成注册与加入", en: "Verify your email to finish registration and enrollment" }),
+      ],
+      manualTitle: t({ zh: "无法快捷加入？按步骤手动加入", en: "Manual enrollment" }),
+      manualIntro: t({ zh: "打开下方注册页面，按以下步骤选择学校和课程；已有 Piazza 账号可先登录。点击示意图可查看大图。", en: "Open the signup page below and select your school and class. Sign in first if you already have a Piazza account. Click an example image to enlarge it." }),
+      imageCaption: t({ zh: "界面示意", en: "Example screen" }),
+      manualSteps: [
+        {
+          title: t({ zh: "选择上海交通大学", en: "Select Shanghai Jiao Tong University" }),
+          body: t({ zh: "在学校选择栏搜索 Shanghai Jiao Tong University 并选中；如当前显示其他学校或 class，点击 change school / change to school 切换。", en: "Search for and select Shanghai Jiao Tong University. If another school or class is shown, use change school / change to school to switch." }),
+          image: "./assets/piazza/school.png",
+          width: 1080,
+          height: 560,
+          alt: t({ zh: "在 Piazza 学校搜索栏选择 Shanghai Jiao Tong University", en: "Selecting Shanghai Jiao Tong University in the school search" }),
+        },
+        {
+          title: t({ zh: "将学期设为 Other", en: "Choose Other as the term" }),
+          body: t({ zh: "在 Selected Term 下拉菜单中选择 Other。", en: "Choose Other from the Selected Term dropdown." }),
+          image: "./assets/piazza/term.png",
+          width: 1080,
+          height: 574,
+          alt: t({ zh: "在 Selected Term 菜单中选择 Other", en: "Choosing Other in the Selected Term dropdown" }),
+        },
+        {
+          title: t({ zh: "搜索并选择 AC 课程", en: "Find the AC class" }),
+          body: t({ zh: "在 Class 1（或任意一个 Class 输入框）中输入 AC，选择 UMJI-AC: Advising Center，再点击 Join Classes。", en: "Enter AC in Class 1 or any other class field, select UMJI-AC: Advising Center, then click Join Classes." }),
+          image: "./assets/piazza/class.png",
+          width: 1072,
+          height: 299,
+          alt: t({ zh: "输入 AC 并选择 UMJI-AC: Advising Center", en: "Searching for AC and selecting UMJI-AC: Advising Center" }),
+        },
+        {
+          title: t({ zh: "选择学生身份，验证交大邮箱", en: "Join as a student and verify your SJTU email" }),
+          body: t({ zh: "选择 Join as Student，填写交大邮箱，并按验证邮件提示完成确认。加入后，即可在 Piazza 课程列表中找到 AC。", en: "Select Join as Student, enter your SJTU email, and follow the verification email to confirm enrollment. AC will then appear in your Piazza class list." }),
+          image: "./assets/piazza/join.png",
+          width: 1080,
+          height: 643,
+          alt: t({ zh: "AC 课程的 Student 身份选项与 Join Classes 按钮", en: "The Student option and Join Classes button for the AC class" }),
+        },
+      ],
+      bookmarkTitle: t({ zh: "加入后，收藏讨论区链接", en: "Bookmark the discussion board" }),
+      bookmarkIntro: t({ zh: "以后可直接从下面的课程链接进入，查看历史问答或发布新问题，AC 成员会及时回复。", en: "Use the class link below to return, search past questions, or post a new question. AC members will respond." }),
     };
   },
   get dutySchedule() {

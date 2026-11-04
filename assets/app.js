@@ -811,6 +811,50 @@ const renderSchedulePage = async () => {
   }
 };
 
+const renderPiazzaPage = () => {
+  renderPageHero();
+  const content = siteContent.piazza;
+  setText("piazzaQuickTitle", content.quickTitle);
+  setText("piazzaQuickIntro", content.quickIntro);
+  setText("piazzaJoinLink", content.joinLabel);
+  setText("piazzaClassLink", content.classLabel);
+  setText("piazzaManualTitle", content.manualTitle);
+  setText("piazzaManualIntro", content.manualIntro);
+  setText("piazzaBookmarkTitle", content.bookmarkTitle);
+  setText("piazzaBookmarkIntro", content.bookmarkIntro);
+
+  const quickSteps = getById("piazzaQuickSteps");
+  quickSteps.textContent = "";
+  content.quickSteps.forEach((text) => {
+    quickSteps.append(createContentElement("li", "", text));
+  });
+
+  const manualSteps = getById("piazzaManualSteps");
+  manualSteps.textContent = "";
+  content.manualSteps.forEach((step, index) => {
+    const item = createElement("li", "piazza-step");
+    const heading = createElement("div", "piazza-step__heading");
+    const number = createElement("span", "piazza-step__number", index + 1);
+    heading.append(number, createContentElement("h3", "", step.title));
+    const figure = createElement("figure", "piazza-step__figure");
+    const link = createElement("a", "piazza-step__image-link");
+    link.href = step.image;
+    link.target = "_blank";
+    link.rel = "noreferrer";
+    const image = createElement("img");
+    image.src = step.image;
+    image.alt = step.alt;
+    image.width = step.width;
+    image.height = step.height;
+    image.loading = "lazy";
+    image.decoding = "async";
+    link.append(image);
+    figure.append(link, createContentElement("figcaption", "", content.imageCaption));
+    item.append(heading, createContentElement("p", "card__body", step.body), figure);
+    manualSteps.append(item);
+  });
+};
+
 const renderPage = async () => {
   renderDocumentMetadata();
   renderBrand();
@@ -829,6 +873,11 @@ const renderPage = async () => {
 
   if (pageType === "schedule") {
     await renderSchedulePage();
+    return;
+  }
+
+  if (pageType === "piazza") {
+    renderPiazzaPage();
     return;
   }
 
