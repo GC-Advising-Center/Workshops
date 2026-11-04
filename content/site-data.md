@@ -16,60 +16,60 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 班雨桐 | 助理教授 CS 方向 | Assistant Professor, CS | yban@sjtu.edu.cn | AI 相关<br>科研 | AI topics<br>Research | 最近在研究Agentic workflow | Currently researching agentic workflows. |
 
-### 大四及研究生 | *Seniors & Postgraduates*
+### 校友顾问 | *Alumni Advisors*
 
 | 姓名 | 中文角色 | English Role | 邮箱 | 中文咨询方向 | English Expertise | 中文简介 | English Bio |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | 倪银晨 | 硕士研究生 CS 专业 | Master's student, CS | niyinchen@sjtu.edu.cn | System 方向科研<br>保研相关 | Systems research<br>Guaranteed postgraduate admission | 昵称是小仓鼠 | Goes by Little Hamster. |
-| 郑千惠 | 大四 ME+CS 专业 | Senior, ME + CS | zhengqianhui@sjtu.edu.cn | 选课规划<br>DD 美研申请 | Course selection planning<br>Dual Degree & US grad applications | 外冷内热的INFJ | An INFJ who seems cold on the outside but is warm-hearted on the inside. |
-| 杨瑞凯 | 大四 ME+CS 专业 | Senior, ME + CS | yang23@sjtu.edu.cn | DD 申请<br>学业之外的规划 | Dual Degree program application<br>Planning beyond academics | 快来给我一个聊天摆烂的机会 | Come give me a chance to slack off in chat. |
-| 诸欣宜 | 大四 ME+CS 专业 | Senior, ME + CS | yiliazhu@sjtu.edu.cn | DD 美研申请 | Dual Degree & US grad applications | 人机但是喜欢聊天的ISTJ | A robotic ISTJ who loves chatting. |
-| 徐嘉秋 | 大四 ECE 专业 | Senior, ECE | xujiaqiu0913@sjtu.edu.cn | PhD 申请<br>硬件 / 物理 / 半导体<br>交换项目 | PhD application<br>Hardware, physics & semiconductors<br>Exchange programs | 转行物理的电子工程师 | An electronics engineer who switched to physics. |
-| 孙少天 | 大四 ECE+Math 专业 | Senior, ECE + Math | 22-sst@sjtu.edu.cn | DD 申请<br>文书写作 | Dual Degree program application<br>Personal statement writing | 快来找我唠嗑 | Come chat with me anytime. |
-| 李嘉文 | 大四 ME+DS 专业 | Senior, ME + DS | lijiawen@umich.edu | HCI 科研<br>博士申请<br>美国生活 | HCI research<br>PhD application<br>Surviving in the US | 2年半玄学算命经验，欢迎来算命 | 2.5 years of fortune-telling experience - come get your future read. |
-| 韩易真 | 大四 ME+IOE 专业 | Senior, ME + IOE | hyizhen@umich.edu | DD / 研究生申请<br>美国 / 国内求职 | DD & graduate applications<br>Job search in the US & China | 常常摸鱼，速速躺平 | Often slacking off, always ready to lie flat. |
-| 王一敏 | 大四 ME+DS 专业 | Senior, ME + DS | wangyimin_claire@sjtu.edu.cn | DD 申请<br>科研<br>学业规划 | Dual Degree program application<br>Research<br>Academic planning | 长时间待机，偶尔高能量的ENFP | A low-key ENFP with occasional bursts of energy. |
-| 陈羿宏 | 大四 ECE 专业 | Senior, ECE | cyh1102@sjtu.edu.cn | 量化实习<br>保研申请 | Quantitative internships<br>Guaranteed postgraduate admission | 快让我毕业吧 | Please just let me graduate. |
-| 邵禹杰 | 大四 ECE 专业 | Senior, ECE | shaox3@sjtu.edu.cn | GDP 申请<br>学业规划<br>科研 / 国内推免 | GDP program application<br>Academic planning<br>Research & domestic postgrad recommendation | 舒服 | Just chillin'. |
-| 张轶凡 | 大四 ECE 专业 | Senior, ECE | zhangyf2022@sjtu.edu.cn | GDP 申请（USC） | GDP application (USC) | 在LA学习西海岸文化 | Soaking up West Coast culture in LA. |
-| 张浩然 | 大四 ME+CS 专业 | Senior, ME + CS | zhhaoran@umich.edu | DD 申请<br>System / MLSys 科研 / PhD 申请<br>北美旅游 | Dual Degree program application<br>System & MLSys research / PhD application<br>Traveling in North America | 爱聊天的INTJ，爱旅游的博0 | A chatty INTJ and a travel-loving PhD year-zero. |
+| 郑千惠 | 本科 ME+CS 专业 | Undergraduate background: ME + CS | zhengqianhui@sjtu.edu.cn | 选课规划<br>DD 美研申请 | Course selection planning<br>Dual Degree & US grad applications | 外冷内热的INFJ | An INFJ who seems cold on the outside but is warm-hearted on the inside. |
+| 杨瑞凯 | 本科 ME+CS 专业 | Undergraduate background: ME + CS | yang23@sjtu.edu.cn | DD 申请<br>学业之外的规划 | Dual Degree program application<br>Planning beyond academics | 快来给我一个聊天摆烂的机会 | Come give me a chance to slack off in chat. |
+| 诸欣宜 | 本科 ME+CS 专业 | Undergraduate background: ME + CS | yiliazhu@sjtu.edu.cn | DD 美研申请 | Dual Degree & US grad applications | 人机但是喜欢聊天的ISTJ | A robotic ISTJ who loves chatting. |
+| 徐嘉秋 | 本科 ECE 专业 | Undergraduate background: ECE | xujiaqiu0913@sjtu.edu.cn | PhD 申请<br>硬件 / 物理 / 半导体<br>交换项目 | PhD application<br>Hardware, physics & semiconductors<br>Exchange programs | 转行物理的电子工程师 | An electronics engineer who switched to physics. |
+| 孙少天 | 本科 ECE+Math 专业 | Undergraduate background: ECE + Math | 22-sst@sjtu.edu.cn | DD 申请<br>文书写作 | Dual Degree program application<br>Personal statement writing | 快来找我唠嗑 | Come chat with me anytime. |
+| 李嘉文 | 本科 ME+DS 专业 | Undergraduate background: ME + DS | lijiawen@umich.edu | HCI 科研<br>博士申请<br>美国生活 | HCI research<br>PhD application<br>Surviving in the US | 2年半玄学算命经验，欢迎来算命 | 2.5 years of fortune-telling experience - come get your future read. |
+| 韩易真 | 本科 ME+IOE 专业 | Undergraduate background: ME + IOE | hyizhen@umich.edu | DD / 研究生申请<br>美国 / 国内求职 | DD & graduate applications<br>Job search in the US & China | 常常摸鱼，速速躺平 | Often slacking off, always ready to lie flat. |
+| 王一敏 | 本科 ME+DS 专业 | Undergraduate background: ME + DS | wangyimin_claire@sjtu.edu.cn | DD 申请<br>科研<br>学业规划 | Dual Degree program application<br>Research<br>Academic planning | 长时间待机，偶尔高能量的ENFP | A low-key ENFP with occasional bursts of energy. |
+| 陈羿宏 | 本科 ECE 专业 | Undergraduate background: ECE | cyh1102@sjtu.edu.cn | 量化实习<br>保研申请 | Quantitative internships<br>Guaranteed postgraduate admission | 快让我毕业吧 | Please just let me graduate. |
+| 邵禹杰 | 本科 ECE 专业 | Undergraduate background: ECE | shaox3@sjtu.edu.cn | GDP 申请<br>学业规划<br>科研 / 国内推免 | GDP program application<br>Academic planning<br>Research & domestic postgrad recommendation | 舒服 | Just chillin'. |
+| 张轶凡 | 本科 ECE 专业 | Undergraduate background: ECE | zhangyf2022@sjtu.edu.cn | GDP 申请（USC） | GDP application (USC) | 在LA学习西海岸文化 | Soaking up West Coast culture in LA. |
+| 张浩然 | 本科 ME+CS 专业 | Undergraduate background: ME + CS | zhhaoran@umich.edu | DD 申请<br>System / MLSys 科研 / PhD 申请<br>北美旅游 | Dual Degree program application<br>System & MLSys research / PhD application<br>Traveling in North America | 爱聊天的INTJ，爱旅游的博0 | A chatty INTJ and a travel-loving PhD year-zero. |
+
+### 大四 | *Seniors*
+
+| 姓名 | 中文角色 | English Role | 邮箱 | 中文咨询方向 | English Expertise | 中文简介 | English Bio |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 吴浩洋 | 大四 ME+CS 专业 | Senior, ME + CS | william-wu@sjtu.edu.cn | 学业规划<br>DD 申请 | Academic planning<br>Dual Degree program application | 想要加州的天气和纽约的大平层 | Dreaming of California weather and a NYC penthouse. |
+| 唐璟帆 | 大四 ECE 专业 | Senior, ECE | tang_jingfan@sjtu.edu.cn | 学业规划<br>科研入门<br>时间管理 | Academic planning<br>Getting started with research<br>Time management | 无法忘记纽约的美食 | Still dreaming about the food in New York. |
+| 耿子聪 | 大四 ECE+Math+CS 专业 | Senior, ECE + Math + CS | gozica-sj@sjtu.edu.cn | 选课规划<br>学生工作<br>随机闲聊 | Course selection planning<br>Student work<br>Random chats | 追求完美的摸鱼摆烂人 | A perfectionist who also excels at doing nothing. |
+| 李一爱 | 大四 ECE 专业 | Senior, ECE | liyiai666@sjtu.edu.cn | 学业规划<br>闲聊 | Academic planning<br>Casual chat | 想去北京 | Wants to go to Beijing. |
+| 丁越桐 | 大四 ECE+ME 专业 | Senior, ECE + ME | amagerd1113@sjtu.edu.cn | 学业规划 | Academic planning | 我是丁越桐 | I am Ding Yuetong. |
+| 周恒毅 | 大四 ME+CE 专业 | Senior, ME + CE | hengyizh@umich.edu | 选课规划<br>科研规划<br>研究生申请规划 | Course selection planning<br>Research planning<br>Graduate application planning | 想再去首尔 | Wants to visit Seoul again. |
+| 卓予蔚 | 大四 ECE+IOE 专业 | Senior, ECE + IOE | zhuo_yw@sjtu.edu.cn | 选课规划<br>DD 后规划 | Course selection planning<br>Post-DD planning | 逃离安娜堡，我要去温暖的地方 | Escaping Ann Arbor for somewhere warmer. |
+| 陈泽奕 | 大四 ECE 专业 | Senior, ECE | marzich_44@sjtu.edu.cn | Non-DD 全方位 | Everything non-DD | 想去环球旅行 | Wants to travel around the world. |
+| 陆汶烨 | 大四 ME+CS 专业 | Senior, ME + CS | wenyelu@umich.edu | 学业规划<br>文书写作 | Academic planning<br>Personal statement writing | 支持随机小窗闲聊 | Always open to a random chat. |
+| 吴羿辰 | 大四 ECE 专业 | Senior, ECE | easonpxz@sjtu.edu.cn | 选课规划<br>升学规划 | Course selection planning<br>Further study planning | GDP学长，AI越来越强了，害怕 | A GDP senior scared by how fast AI is advancing. |
+| 叶承嵘 | 大四 ECE 专业 | Senior, ECE | yechengrong2005@sjtu.edu.cn | 科研规划<br>AI 方向交流 | Research planning<br>AI topics & discussion | 成为AI的奴隶 | Willingly enslaved to AI. |
+| 周冯铭 | 大四 ECE 专业 | Senior, ECE | zhoufengming@sjtu.edu.cn | 学生工作<br>保研 | Student work<br>Guaranteed postgraduate admission | 不想上学的摆烂人 | A slacker who'd rather not go to school. |
 
 ### 大三 | *Juniors*
 
 | 姓名 | 中文角色 | English Role | 邮箱 | 中文咨询方向 | English Expertise | 中文简介 | English Bio |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 吴浩洋 | 大三 ME+CS 专业 | Junior, ME + CS | william-wu@sjtu.edu.cn | 学业规划<br>DD 申请 | Academic planning<br>Dual Degree program application | 想要加州的天气和纽约的大平层 | Dreaming of California weather and a NYC penthouse. |
-| 唐璟帆 | 大三 ECE 专业 | Junior, ECE | tang_jingfan@sjtu.edu.cn | 学业规划<br>科研入门<br>时间管理 | Academic planning<br>Getting started with research<br>Time management | 无法忘记纽约的美食 | Still dreaming about the food in New York. |
-| 耿子聪 | 大三 ECE+Math+CS 专业 | Junior, ECE + Math + CS | gozica-sj@sjtu.edu.cn | 选课规划<br>学生工作<br>随机闲聊 | Course selection planning<br>Student work<br>Random chats | 追求完美的摸鱼摆烂人 | A perfectionist who also excels at doing nothing. |
-| 李一爱 | 大三 ECE 专业 | Junior, ECE | liyiai666@sjtu.edu.cn | 学业规划<br>闲聊 | Academic planning<br>Casual chat | 想去北京 | Wants to go to Beijing. |
-| 丁越桐 | 大三 ECE+ME 专业 | Junior, ECE + ME | amagerd1113@sjtu.edu.cn | 学业规划 | Academic planning | 我是丁越桐 | I am Ding Yuetong. |
-| 周恒毅 | 大三 ME+CE 专业 | Junior, ME + CE | hengyizh@umich.edu | 选课规划<br>科研规划<br>研究生申请规划 | Course selection planning<br>Research planning<br>Graduate application planning | 想再去首尔 | Wants to visit Seoul again. |
-| 卓予蔚 | 大三 ECE+IOE 专业 | Junior, ECE + IOE | zhuo_yw@sjtu.edu.cn | 选课规划<br>DD 后规划 | Course selection planning<br>Post-DD planning | 逃离安娜堡，我要去温暖的地方 | Escaping Ann Arbor for somewhere warmer. |
-| 陈泽奕 | 大三 ECE 专业 | Junior, ECE | marzich_44@sjtu.edu.cn | Non-DD 全方位 | Everything non-DD | 想去环球旅行 | Wants to travel around the world. |
-| 陆汶烨 | 大三 ME+CS 专业 | Junior, ME + CS | wenyelu@umich.edu | 学业规划<br>文书写作 | Academic planning<br>Personal statement writing | 支持随机小窗闲聊 | Always open to a random chat. |
-| 吴羿辰 | 大三 ECE 专业 | Junior, ECE | easonpxz@sjtu.edu.cn | 选课规划<br>升学规划 | Course selection planning<br>Further study planning | GDP学长，AI越来越强了，害怕 | A GDP senior scared by how fast AI is advancing. |
-| 叶承嵘 | 大三 ECE 专业 | Junior, ECE | yechengrong2005@sjtu.edu.cn | 科研规划<br>AI 方向交流 | Research planning<br>AI topics & discussion | 成为AI的奴隶 | Willingly enslaved to AI. |
-| 周冯铭 | 大三 ECE 专业 | Junior, ECE | zhoufengming@sjtu.edu.cn | 学生工作<br>保研 | Student work<br>Guaranteed postgraduate admission | 不想上学的摆烂人 | A slacker who'd rather not go to school. |
+| 戴琤妍 | 大三 ECE 专业 | Junior, ECE | cheryl_cy@sjtu.edu.cn | 选课<br>学生工作 | Course selection<br>Student work | 天马行空的人类观察员 | An imaginative human observer. |
+| 刘乐思 | 大三 ECE 专业 | Junior, ECE | alan-lls@sjtu.edu.cn | 学业规划<br>保研相关 | Academic planning<br>Guaranteed postgraduate admission | 喜欢计算机 | A CS enthusiast. |
+| 王子睿 | 大三 ECE+CE 专业 | Junior, ECE + CE | wzr0831@gmail.com | 独立思考<br>创业入门 | Independent thinking<br>Startup basics | 想在有限的时间内接触尽可能多的领域 | Trying to explore as many fields as possible. |
+| 王敏茜 | 大三 ECE+EE 专业 | Junior, ECE + EE | minqianw@umich.edu | 选课规划<br>文书写作 | Course selection planning<br>Personal statement writing | 什么都想尝试一下的INFJ | An INFJ who wants to try everything. |
+| 张果然 | 大三 ECE+CS 专业 | Junior, ECE + CS | tracyguoran09@sjtu.edu.cn | 选课规划<br>学生工作 | Course selection planning<br>Student work | 喜欢说走就走的旅行 | Loves spontaneous travel. |
+| 王子谦 | 大三 ECE+CS 专业 | Junior, ECE + CS | ziqianww@umich.edu | AI 创业<br>科研<br>生涯规划 | AI entrepreneurship<br>Research<br>Career planning | 辍学创业中 | Currently dropping out to start a company. |
+| 陈文新 | 大三 ECE+CS 专业 | Junior, ECE + CS | simonchen24@sjtu.edu.cn | 科研<br>选课<br>托福备考 / DD 申请 | Research<br>Course selection<br>TOEFL prep & DD applications | 擅长摸鱼鉴赏美食 | Expert at slacking off and appreciating good food. |
+| 王飞羽 | 大三 ECE+CS 专业 | Junior, ECE + CS | feiyuwang@sjtu.edu.cn | 选课规划<br>DD 申请<br>闲聊 | Course selection planning<br>Dual Degree program application<br>Casual chat | 矛盾纠结双子体质 | A walking contradiction with Gemini energy. |
 
 ### 大二 | *Sophomores*
 
 | 姓名 | 中文角色 | English Role | 邮箱 | 中文咨询方向 | English Expertise | 中文简介 | English Bio |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 戴琤妍 | 大二 ECE 专业 | Sophomore, ECE | cheryl_cy@sjtu.edu.cn | 选课<br>学生工作 | Course selection<br>Student work | 天马行空的人类观察员 | An imaginative human observer. |
-| 刘乐思 | 大二 ECE 专业 | Sophomore, ECE | alan-lls@sjtu.edu.cn | 学业规划<br>保研相关 | Academic planning<br>Guaranteed postgraduate admission | 喜欢计算机 | A CS enthusiast. |
-| 王子睿 | 大二 ECE+CE 专业 | Sophomore, ECE + CE | wzr0831@gmail.com | 独立思考<br>创业入门 | Independent thinking<br>Startup basics | 想在有限的时间内接触尽可能多的领域 | Trying to explore as many fields as possible. |
-| 王敏茜 | 大二 ECE+EE 专业 | Sophomore, ECE + EE | minqianw@umich.edu | 选课规划<br>文书写作 | Course selection planning<br>Personal statement writing | 什么都想尝试一下的INFJ | An INFJ who wants to try everything. |
-| 张果然 | 大二 ECE+CS 专业 | Sophomore, ECE + CS | tracyguoran09@sjtu.edu.cn | 选课规划<br>学生工作 | Course selection planning<br>Student work | 喜欢说走就走的旅行 | Loves spontaneous travel. |
-| 王子谦 | 大二 ECE+CS 专业 | Sophomore, ECE + CS | ziqianww@umich.edu | AI 创业<br>科研<br>生涯规划 | AI entrepreneurship<br>Research<br>Career planning | 辍学创业中 | Currently dropping out to start a company. |
-| 陈文新 | 大二 ECE+CS 专业 | Sophomore, ECE + CS | simonchen24@sjtu.edu.cn | 科研<br>选课<br>托福备考 / DD 申请 | Research<br>Course selection<br>TOEFL prep & DD applications | 擅长摸鱼鉴赏美食 | Expert at slacking off and appreciating good food. |
-| 王飞羽 | 大二 ECE+CS 专业 | Sophomore, ECE + CS | feiyuwang@sjtu.edu.cn | 选课规划<br>DD 申请<br>闲聊 | Course selection planning<br>Dual Degree program application<br>Casual chat | 矛盾纠结双子体质 | A walking contradiction with Gemini energy. |
-
-### 大一 | *Freshmen*
-
-| 姓名 | 中文角色 | English Role | 邮箱 | 中文咨询方向 | English Expertise | 中文简介 | English Bio |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 陈洁仪 | 大一 ECE 专业 | Freshman, ECE | annalysecc@sjtu.edu.cn | 闲聊<br>大一选课 | Casual chat<br>Freshman course selection | ISTP摸鱼入 | An ISTP perfecting the art of doing nothing. |
-| 汤礼维 | 大一 ECE 专业 | Freshman, ECE | tangliwei@sjtu.edu.cn | 科研入门<br>大一选课 | Getting started with research<br>Freshman course selection | 喜欢唠嗑，欢迎来聊天 | Loves chatting - come say hi. |
+| 陈洁仪 | 大二 ECE 专业 | Sophomore, ECE | annalysecc@sjtu.edu.cn | 闲聊<br>大一选课 | Casual chat<br>Freshman course selection | ISTP摸鱼入 | An ISTP perfecting the art of doing nothing. |
+| 汤礼维 | 大二 ECE 专业 | Sophomore, ECE | tangliwei@sjtu.edu.cn | 科研入门<br>大一选课 | Getting started with research<br>Freshman course selection | 喜欢唠嗑，欢迎来聊天 | Loves chatting - come say hi. |
 
 ## Workshops
 
