@@ -42,14 +42,14 @@ rebuilding (about a minute) and after a hard refresh (`Ctrl+Shift+R`, or `Cmd+Sh
 
 Edit the table under `## Schedule`:
 
-    | 日期 | 时间 | 单周顾问 | 双周顾问 | 地点 |
-    | --- | --- | --- | --- | --- |
-    | 周一 | 7:00-9:00 PM | 顾问A / 顾问B | 顾问C / 顾问D | 龙宾楼 312 |
+    | 日期 | 时间 | 值班顾问 | 地点 |
+    | --- | --- | --- | --- |
+    | 周一 | 7:00-9:00 PM | 顾问A / 顾问B | 龙宾楼 403 |
 
 * Keep the header row and the separator row as they are.
-* Keep 5 columns; each line becomes one row.
-* Day names: `周一` to `周四`. English names (`Monday` …) also work.
-* `龙宾楼 312` is automatically shown as `LB 312` in English mode.
+* Keep 4 columns; each line becomes one row.
+* Day names: `周一` to `周五`. English names (`Monday` … `Friday`) also work.
+* Room names such as `龙宾楼 403` are automatically shown as `LB 403` in English mode.
 
 ## Editing the advisor directory
 

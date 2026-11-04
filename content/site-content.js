@@ -202,14 +202,13 @@ window.SITE_CONTENT = {
   get dutySchedule() {
     return {
       intro: t({
-        zh: "每周一到周四晚间值班，地点龙宾楼312。单双周人员不同，同一天同时有三位顾问在场。",
-        en: "Duty runs Monday to Thursday evenings at LB312. Odd and even weeks have different advisors; three advisors are on duty each day."
+        zh: "每周一至周五 19:00–21:00 值班，地点为龙宾楼 403。各日值班顾问如下。",
+        en: "Advisors are on duty Monday to Friday, 7:00–9:00 PM, at Longbin Building 403. See the daily roster below."
       }),
       columns: [
         t({ zh: "日期", en: "Day" }),
         t({ zh: "时间", en: "Time" }),
-        t({ zh: "单周顾问", en: "Odd-week Advisors" }),
-        t({ zh: "双周顾问", en: "Even-week Advisors" }),
+        t({ zh: "值班顾问", en: "Advisors" }),
         t({ zh: "地点", en: "Location" }),
       ],
       loadError: t({

@@ -37,10 +37,12 @@ const DAY_TRANSLATIONS = {
   Tuesday: { zh: "周二", en: "Tuesday" },
   Wednesday: { zh: "周三", en: "Wednesday" },
   Thursday: { zh: "周四", en: "Thursday" },
+  Friday: { zh: "周五", en: "Friday" },
   "周一": { zh: "周一", en: "Monday" },
   "周二": { zh: "周二", en: "Tuesday" },
   "周三": { zh: "周三", en: "Wednesday" },
   "周四": { zh: "周四", en: "Thursday" },
+  "周五": { zh: "周五", en: "Friday" },
 };
 
 const isLocalizedValue = (value) => siteLanguage.isLocalizedValue(value);
@@ -339,15 +341,14 @@ const parseScheduleMarkdown = (markdown) => {
     .filter((line) => line.startsWith("|") && !isMarkdownDividerRow(line))
     .slice(1)
     .map(parseMarkdownTableRow)
-    .filter((row) => row.length >= 5)
+    .filter((row) => row.length >= 4)
     .map((row) => [
       DAY_TRANSLATIONS[row[0]] || { zh: row[0], en: row[0] },
       row[1],
       row[2],
-      row[3],
       {
-        zh: row[4] === "LB 312" ? "龙宾楼 312" : row[4],
-        en: row[4] === "龙宾楼 312" ? "LB 312" : row[4],
+        zh: row[3].replace(/^LB\s*(\d+)$/, "龙宾楼 $1"),
+        en: row[3].replace(/^龙宾楼\s*(\d+)$/, "LB $1"),
       },
     ]);
 };
