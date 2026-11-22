@@ -78,6 +78,10 @@ Archives for experience-sharing workshops held by [Shanghai Jiao Tong University
 **Reminder: to access jbox link, please turn on SJTU VPN.**
 
 ---
+### 2026/11/22 <br>GDP申请分享会 | *GDP Application Workshop*
++ [分享会回放](https://sjtu.feishu.cn/minutes/obcnd3bw8b4736u79q863wi2?from=from_copylink)
++ [资料存档](https://github.com/GC-Advising-Center/Workshops/tree/master/materials/2026-11-22-gdp)
+
 ### 2026/10/31 <br>保研Workshop | *Domestic Postgraduate Recommendation Workshop*
 + [分享会回放](https://sjtu.feishu.cn/minutes/obcnxx77rfgv6i9z213t6hbh?from=from_copylink)
 + [资料存档](https://github.com/GC-Advising-Center/Workshops/tree/master/materials/2026-10-31-baoyan)
