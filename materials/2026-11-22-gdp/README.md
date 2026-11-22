@@ -10,3 +10,4 @@
 | --- | --- | --- |
 | 吴羿辰 | UMSI GDP 项目介绍与申请经验 | [UMSI GDP（PDF）](UMSI_GDP_2026_Yichen_Wu.pdf) |
 | 沈义力 | NUS GDP 3+1+1 申请与就读体验 | [NUS GDP（PPTX）](NUS_GDP_2027_分享会.pptx) |
+| 周皓彬 | NTU GDP 3+1+1 项目选择与学习生活 | [NTU GDP（PPTX）](NTU%20GDP%20分享.pptx) |
